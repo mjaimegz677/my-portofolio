@@ -28,18 +28,64 @@ Security has become an increasingly important aspect of my education. Throughout
 
 ## Artifacts Overview
 
-This ePortfolio reflects my growth and achievements in the Computer Science program through various artifacts that demonstrate my technical skills and knowledge. The projects and assignments included in this portfolio represent my ability to solve real-world problems, work within a team, and communicate effectively with stakeholders.
+This ePortfolio reflects my growth and achievements in the Computer Science program through various artifacts that demonstrate my technical skills and knowledge. The **Weight Tracker Pro** project represents a significant portion of my work, highlighting my ability to design and implement a full-stack application with a focus on user experience, functionality, and continuous improvement. The recent enhancements to this project include:
 
-1. **Weight Tracker Pro (CS-360, CS-499)** - This project showcases my ability to design and implement a full-stack application with a focus on user experience and functionality.
+1. **Graphing Weight Trend**: I added a feature that displays users' weight trends over time using a graph. This enhancement demonstrates my skills in data visualization and my ability to implement the Model-View-Controller (MVC) design pattern to improve modularity.
 
-2. **Grazioso Salvare (CS-340)** - A data analysis project that highlights my understanding of algorithms and data structures.
+   Pseudocode for Graph Implementation:
 
-3. **Travlr Getaways (CS-465)** - A software engineering project that demonstrates my skills in database management, version control, and agile development.
+   ```python
+   # Fetch weight entries from database
+   weights = fetch_weights_from_database()
 
-4. **Weight Tracker Pro (CS-360, CS-499)** - A security-focused project that illustrates my ability to design secure applications with user authentication and data protection.
+   # Process data for graph
+   dates = [entry.date for entry in weights]
+   values = [entry.weight for entry in weights]
 
-   [Link to Enhanced Weight Tracker Pro](./Weight-TrackerPro-3.0.zip)
-   [Link to Original Weight Tracker Pro](./WeightTrackerPro-OldVersion.zip)
+   # Generate graph
+   plot_graph(dates, values, title="Weight Trend Over Time")
+
+   ```
+
+2. **Optimized Search Algorithm**: I implemented an optimized search algorithm to filter weight entries by date range or keywords, showcasing my ability to improve algorithm efficiency and enhance user experience.
+
+   Pseudocode for Optimized Search:
+
+   ```python
+   def search_entries(start_date, end_date):
+   # Query database for entries within the date range
+   query = "SELECT * FROM weights WHERE date BETWEEN ? AND ?"
+   results = execute_query(query, (start_date, end_date))
+   return results
+
+   ```
+
+3. **SQLite Data Backup**: I introduced a data export feature that allows users to back up their weight entries by exporting the SQLite database to a CSV file. This enhancement improves user data portability and provides additional functionality for managing data.
+
+   Pseudocode for Export Feature:
+
+   ```python
+   def export_to_csv(database_path, csv_path):
+   # Connect to SQLite database
+   conn = sqlite3.connect(database_path)
+   cursor = conn.cursor()
+
+   # Fetch all data
+   cursor.execute("SELECT * FROM weights")
+   data = cursor.fetchall()
+
+   # Write data to CSV
+   with open(csv_path, 'w', newline='') as file:
+       writer = csv.writer(file)
+       writer.writerow(["Date", "Weight"])
+       writer.writerows(data)
+   conn.close()
+   ```
+
+**Weight Tracker Pro (CS-360, CS-499)** - This project showcases my ability to design and implement a full-stack application with a focus on user experience and functionality.
+
+[Link to Enhanced Weight Tracker Pro](./Weight-TrackerPro-3.0.zip)
+[Link to Original Weight Tracker Pro](./WeightTrackerPro-OldVersion.zip)
 
 This artifact enhancements come together to provide a comprehensive picture of my abilities in software development, data management, security, and collaboration. The variety of projects reflects my versatility and readiness to tackle challenges in the computer science field.
 
