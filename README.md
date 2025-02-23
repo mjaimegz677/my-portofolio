@@ -8,7 +8,7 @@ Throughout my journey in the Computer Science program, I have gained a comprehen
 
 ### Collaborating in a Team Environment
 
-One of the key strengths I have developed is the ability to work effectively within a team. Collaboration is essential in computer science, where large projects often require input from multiple disciplines. Through group assignments, I have learned to contribute to discussions, share ideas, and resolve conflicts in a constructive manner. In particular, during my work on projects such as Travlr Getaways, I worked with teammates to solve complex problems and ensure our deliverables met the required standards.
+One of the key strengths I have developed is the ability to work effectively within a team. Collaboration is essential in computer science, where large projects often require input from multiple disciplines. Through group assignments, I have learned to contribute to discussions, share ideas, and resolve conflicts in a constructive manner. In particular, during my work on projects, I worked with teammates to solve complex problems and ensure our deliverables met the required standards.
 
 ### Communicating with Stakeholders
 
@@ -20,11 +20,23 @@ My understanding of data structures and algorithms has grown significantly over 
 
 ### Software Engineering and Database Management
 
-The program has equipped me with a solid foundation in software engineering practices and database management. I have gained hands-on experience with developing applications using modern tools and methodologies, such as version control systems like Git, Agile frameworks, and SQL databases. My work on projects like Weight Tracker Pro and Travlr Getaways allowed me to design, implement, and test robust software solutions that meet real-world requirements. I have also worked with relational and non-relational databases, optimizing queries for performance and ensuring data integrity.
+The program has equipped me with a solid foundation in software engineering practices and database management. I have gained hands-on experience with developing applications using modern tools and methodologies, such as version control systems like Git, Agile frameworks, and SQL databases. My work on projects like Weight Tracker Pro allowed me to design, implement, and test robust software solutions that meet real-world requirements. I have also worked with relational and non-relational databases, optimizing queries for performance and ensuring data integrity.
 
 ### Security
 
 Security has become an increasingly important aspect of my education. Throughout the program, I have learned to design and implement secure applications, paying careful attention to user authentication, data encryption, and vulnerability prevention. In my Weight Tracker Pro, I implemented multi-factor authentication and ensured secure data storage, which not only enhanced the application's security but also provided peace of mind to users and stakeholders.
+
+## 📌 Code Review
+
+Below is a direct link to my YouTube channel, where I’ve uploaded my **Code Review** video. In this review, I cover the following key areas:
+
+- ✅ **Overview of Existing Functionality** – A step-by-step walkthrough explaining what the code does, how it operates, and its purpose.
+
+- ✅ **Code Evaluation** – Analyzing the structure, efficiency, and readability of the code, while also checking for comments and documentation. I share insights on areas of improvement.
+
+- ✅ **Potential Enhancements** – Reviewing planned improvements and discussing ways to optimize or expand the current functionality.
+
+[📺 Watch the full Code Review here](https://www.youtube.com/watch?v=74-eLiDFAng)
 
 ## Artifacts Overview
 
