@@ -32,13 +32,16 @@ This ePortfolio reflects my growth and achievements in the Computer Science prog
 
 1. **Weight Tracker Pro (CS-360, CS-499)** - This project showcases my ability to design and implement a full-stack application with a focus on user experience and functionality.
 
-   [Link to Weight Tracker Pro](./WeightTrackerPro-OldVersion.zip)
-
 2. **Grazioso Salvare (CS-340)** - A data analysis project that highlights my understanding of algorithms and data structures.
+
 3. **Travlr Getaways (CS-465)** - A software engineering project that demonstrates my skills in database management, version control, and agile development.
+
 4. **Weight Tracker Pro (CS-360, CS-499)** - A security-focused project that illustrates my ability to design secure applications with user authentication and data protection.
 
-These artifacts come together to provide a comprehensive picture of my abilities in software development, data management, security, and collaboration. The variety of projects reflects my versatility and readiness to tackle challenges in the computer science field.
+   [Link to Enhanced Weight Tracker Pro](./Weight-TrackerPro-3.0.zip)
+   [Link to Original Weight Tracker Pro](./WeightTrackerPro-OldVersion.zip)
+
+This artifact enhancements come together to provide a comprehensive picture of my abilities in software development, data management, security, and collaboration. The variety of projects reflects my versatility and readiness to tackle challenges in the computer science field.
 
 ## Conclusion
 
